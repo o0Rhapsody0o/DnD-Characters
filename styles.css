@@ -1,3 +1,9 @@
-html{
-    background: gray
+#index-html{
+    background-color: gray;
+}
+#arannis-html{
+    background-color: darkgreen;
+}
+#zarenna-html{
+    background-color: pink;
 }
