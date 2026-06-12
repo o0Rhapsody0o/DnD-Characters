@@ -1,10 +1,23 @@
+/* Styles for index */
 #index-html{
-    background-color: gray;
+    background-color: #810B38;
     text-align: center;
 }
+
+.beige-text{
+    color: #DCC3AA;
+}
+
+.darkbeige-text{
+    color: #F1E2D1;
+}
+
+/* Styles for Arannis */
 #arannis-html{
     background-color: darkgreen;
 }
+
+/* Styles for Zarenna */
 #zarenna-html{
     background-color: pink;
 }
