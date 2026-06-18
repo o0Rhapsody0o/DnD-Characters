@@ -1,0 +1,30 @@
+/* Styles for index */
+#index-html{
+    background-color: #810B38;
+    text-align: center;
+    
+}
+
+.index-h1{
+    color: #DCC3AA;
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.index-anchors a{
+    color: #F1E2D1;
+    display: inline-block;
+    margin: 10px;
+    font-size: 25px;
+}
+
+/* Styles for Arannis */
+#arannis-html{
+    background-color: darkgreen;
+}
+
+/* Styles for Zarenna */
+#zarenna-html{
+    background-color: pink;
+}
