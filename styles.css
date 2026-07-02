@@ -1,11 +1,11 @@
 /* Styles for index */
-#index-body{
+#index-body {
     background-color: #000000;
     text-align: center;
     
 }
 
-#index-h1{
+#index-h1 {
     color: #DCC3AA;
     font-family: "MedievalSharp", cursive;
     font-weight: 400;
@@ -19,29 +19,33 @@
     font-size: 25px;
 }
 
-#anchor-arannis {
+#index-anchorarannis {
     color: darkgreen;
 }
 
-#anchor-zarenna {
+#index-anchorzarenna {
     color: pink;
 }
 
-#anchor-cariel {
+#index-anchorcariel {
     color: yellow;
 }
 
 
 /* Styles for Arannis */
-#arannis-body{
+#arannis-body {
     background-color: darkgreen;
 }
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 5px;
-  text-align: center;
+#arannis-abilityscorestable, #arannis-abilityscorestable th,#arannis-abilityscorestable td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+#arannis-abilityscorestable {
+    float: left;
 }
 
 #arannis-body hr {
@@ -49,11 +53,11 @@ table, th, td {
 }
 
 /* Styles for Zarenna */
-#zarenna-body{
+#zarenna-body {
     background-color: pink;
 }
 
 /* Styles for Cariel */
-#cariel-body{
+#cariel-body {
     background-color: yellow;
 }
