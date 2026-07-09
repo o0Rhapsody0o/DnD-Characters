@@ -37,6 +37,10 @@
     background-color: darkgreen;
 }
 
+#arannis-body hr {
+    border-color: black;
+}
+
 #arannis-abilityscorestable, #arannis-abilityscorestable th,#arannis-abilityscorestable td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -44,10 +48,10 @@
     text-align: center;
 }
 
-
-#arannis-body hr {
-    border-color: black;
+#arannis-skilldiv {
+    font-size: smaller;
 }
+
 
 /* Styles for Zarenna */
 #zarenna-body {
