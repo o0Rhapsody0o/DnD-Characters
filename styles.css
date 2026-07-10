@@ -34,14 +34,19 @@
 
 /* Styles for Arannis */
 #arannis-body {
-    background-color: darkgreen;
+    background-color: #1B211A;
+    color: #1F7D53;
 }
 
 #arannis-body hr {
-    border-color: black;
+    border-color: #D8E9A8;
 }
 
-#arannis-abilityscorestable, #arannis-abilityscorestable th,#arannis-abilityscorestable td {
+#arannis-body h1, #arannis-body h2, #arannis-body h3, #arannis-body h4 {
+    color: #255F38;
+}
+
+#arannis-abilityscoretable, #arannis-abilityscoretable th,#arannis-abilityscoretable td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
