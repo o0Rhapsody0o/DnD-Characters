@@ -48,6 +48,7 @@
 
 #arannis-abilityscoretable, #arannis-abilityscoretable th,#arannis-abilityscoretable td {
     border: 1px solid black;
+    border-color: #255F38;
     border-collapse: collapse;
     padding: 5px;
     text-align: center;
