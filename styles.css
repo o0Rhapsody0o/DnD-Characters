@@ -36,8 +36,13 @@
 #arannis-body {
     background-color: darkgreen;
 }
+
 #arannis-body hr {
     border-color: black;
+}
+
+#arannis-body ul {
+    padding-left: 25px;
 }
 
 #arannis-abilityscorestable, #arannis-abilityscorestable th,#arannis-abilityscorestable td {
