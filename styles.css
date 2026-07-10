@@ -39,16 +39,29 @@
 }
 
 #arannis-body hr {
-    border-color: #D8E9A8;
-    clear: both;
+    color: #D8E9A8;
 }
-
 #arannis-body h1, #arannis-body h2, #arannis-body h3, #arannis-body h4 {
     color: #255F38;
     font-family: "Metamorphous", serif;
     font-weight: 400;
     font-style: normal;
 }
+
+.flex-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (min-width: 1024px) {
+    .flex-1 {
+        flex-direction: row;
+        gap: 100px;
+    }
+}
+
 
 #arannis-abilityscoretable, #arannis-abilityscoretable th,#arannis-abilityscoretable td {
     border: 1px solid #255F38;
@@ -57,9 +70,6 @@
     text-align: center;
 }
 
-#arannis-skilldiv {
-    font-size: smaller;
-}
 
 
 /* Styles for Zarenna */
