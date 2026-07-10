@@ -41,10 +41,6 @@
     border-color: black;
 }
 
-#arannis-body ul {
-    padding-left: 15px;
-}
-
 #arannis-abilityscorestable, #arannis-abilityscorestable th,#arannis-abilityscorestable td {
     border: 1px solid black;
     border-collapse: collapse;
