@@ -50,17 +50,20 @@
 
 .flex-1 {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-direction: column;
-    gap: 10px;
+    font-size: smaller;
+    gap: 25px;
 }
 
 @media (min-width: 1024px) {
     .flex-1 {
         flex-direction: row;
-        gap: 100px;
+        font-size: unset;
+        gap: 25px;
     }
 }
+
 
 
 #arannis-abilityscoretable, #arannis-abilityscoretable th,#arannis-abilityscoretable td {
