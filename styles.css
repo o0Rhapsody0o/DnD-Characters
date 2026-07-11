@@ -5,7 +5,7 @@
     
 }
 
-#index-h1 {
+#index-body h1 {
     color: #DCC3AA;
     font-family: "MedievalSharp", cursive;
     font-weight: 400;
@@ -13,7 +13,7 @@
     font-size: 50px;
 }
 
-#index-anchors a{
+#index-body a {
     display: block;
     margin: 20px;
     font-size: 25px;
@@ -48,7 +48,7 @@
     font-style: normal;
 }
 
-.flex-1 {
+#arannis-body .flex {
     display: flex;
     justify-content: left;
     flex-direction: column;
@@ -56,11 +56,14 @@
     gap: 25px;
 }
 
-@media (min-width: 1024px) {
-    .flex-1 {
+@media (min-width: 1100px) {
+    #arannis-body .flex {
         flex-direction: row;
         font-size: unset;
-        gap: 25px;
+    }
+
+    #arannis-body img {
+        width: 450px;
     }
 }
 
