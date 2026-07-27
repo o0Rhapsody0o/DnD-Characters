@@ -5,7 +5,7 @@
     
 }
 
-#index-body h1 {
+#index-h1 {
     color: #DCC3AA;
     font-family: "MedievalSharp", cursive;
     font-weight: 400;
@@ -13,7 +13,7 @@
     font-size: 50px;
 }
 
-#index-body a {
+#index-anchors a{
     display: block;
     margin: 20px;
     font-size: 25px;
@@ -48,25 +48,19 @@
     font-style: normal;
 }
 
-#arannis-body .flex {
+.flex-1 {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     flex-direction: column;
-    font-size: smaller;
-    gap: 25px;
+    gap: 10px;
 }
 
-@media (min-width: 1100px) {
-    #arannis-body .flex {
+@media (min-width: 1024px) {
+    .flex-1 {
         flex-direction: row;
-        font-size: unset;
-    }
-
-    #arannis-body img {
-        width: 450px;
+        gap: 100px;
     }
 }
-
 
 
 #arannis-abilityscoretable, #arannis-abilityscoretable th,#arannis-abilityscoretable td {
